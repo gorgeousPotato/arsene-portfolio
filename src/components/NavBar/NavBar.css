@@ -1,0 +1,79 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Poppins;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.NavBar .logo {
+  margin-right: auto;
+}
+
+.NavBar a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #8D8DAA;
+}
+
+.NavBar a:hover {
+  text-decoration: underline;
+  color: #F56D91;
+}
+
+.NavBar a:focus {
+  text-decoration: none;
+  color: #F56D91;
+}
+
+.NavBar a:hover {
+  text-decoration: underline;
+  color: #F56D91;
+}
+
+
+
+.logo-img {
+  /* background-image: url('../../../public/Rectangle\ 4.png'); */
+  background-size: cover;
+  background-position: center center;
+  height: 1.4rem;
+  width: 1.4rem;
+  /* margin-left: .8rem; */
+}
+
+.logo{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #1a1a2b;
+}
+
+.logo a:hover{
+  text-decoration: none;
+  color: #1a1a2b;
+}
+
+.logo a:focus{
+  text-decoration: none;
+  color: #1a1a2b;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .logo h2 {
+    font-size: 3rem;
+  }
+
+}
