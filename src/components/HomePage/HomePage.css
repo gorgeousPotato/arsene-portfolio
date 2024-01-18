@@ -1,0 +1,15 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lavender;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border: 2px solid plum;
+  border-radius: 100px;
+}
