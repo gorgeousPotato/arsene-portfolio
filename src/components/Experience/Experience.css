@@ -1,0 +1,15 @@
+.Experience {
+  height: 100vh;
+  background-color: plum;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  text-align: left;
+  gap: 2rem;
+}

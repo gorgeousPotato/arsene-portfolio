@@ -1,6 +1,6 @@
 import "./Education.css"
 
-export default function About() {
+export default function Education() {
   return (
     <div className="Education">
       <h1>Education</h1>
