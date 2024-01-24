@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage/HomePage";
 import About from "./components/About/About";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
+import Articles from "./components/Articles/Articles"
 import { Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 
@@ -14,6 +15,8 @@ function App() {
       <About/>
       <Education />
       <Experience />
+      <Articles />
+
       {
         <Routes>
           <Route path="/*" element={<Navigate to="/" />} />
