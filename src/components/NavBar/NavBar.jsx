@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./NavBar.css";
 // import HamburgerMenu from "../HamburgerMenu/HamburgerMenu"
 
@@ -13,11 +13,11 @@ export default function NavBar() {
       </div>
       <div className="navbar-links">
         <Link to="/">Home</Link>
-        <Link to="/about">About me</Link>
-        <Link to="/education">Education</Link>
-        <Link to="/experience">Experience</Link>
-        <Link to="/articles">Articles</Link>
-        <Link to="/contacts">Contacts</Link>
+        <Link to="About" smooth={true} duration={500}>About me</Link>
+        <Link to="Education" smooth={true} duration={500}>Education</Link>
+        <Link to="Experience" smooth={true} duration={500}>Experience</Link>
+        <Link to="Articles" smooth={true} duration={500}>Articles</Link>
+        <Link to="Contacts" smooth={true} duration={500}>Contacts</Link>
       </div>
       {/* <div>
         <HamburgerMenu />
