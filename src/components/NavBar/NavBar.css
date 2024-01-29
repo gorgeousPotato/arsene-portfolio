@@ -67,6 +67,8 @@
   color: #1a1a2b;
 }
 
+
+
 @media (max-width: 768px) {
   .navbar-links {
     display: none;

@@ -12,7 +12,7 @@ export default function NavBar() {
         <div className="logo-img"></div>
       </div>
       <div className="navbar-links">
-        <Link to="/">Home</Link>
+        <Link to="HomePage" smooth={true} duration={500}>Home</Link>
         <Link to="About" smooth={true} duration={500}>About me</Link>
         <Link to="Education" smooth={true} duration={500}>Education</Link>
         <Link to="Experience" smooth={true} duration={500}>Experience</Link>
