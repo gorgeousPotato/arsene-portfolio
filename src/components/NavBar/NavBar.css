@@ -17,10 +17,10 @@
 .NavBar a {
   margin-right: 1rem;
   text-decoration: none;
-  color: #8D8DAA;
+  /* color: #8D8DAA; */
 }
 
-.NavBar a:hover {
+/* .NavBar a:hover {
   text-decoration: underline;
   color: #F56D91;
 }
@@ -33,9 +33,12 @@
 .NavBar a:hover {
   text-decoration: underline;
   color: #F56D91;
+} */
+
+
+ .active {
+  color: red;
 }
-
-
 
 .logo-img {
   /* background-image: url('../../../public/Rectangle\ 4.png'); */
@@ -66,6 +69,8 @@
   text-decoration: none;
   color: #1a1a2b;
 }
+
+
 
 
 
