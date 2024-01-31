@@ -4,12 +4,36 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: lavender;
+  
 }
 
+.HomePage h1 {
+  font-size: 7rem;
+  margin-bottom:1rem;
+  margin-top: 0;
+}
+
+.HomePage h3 {
+  font-size: 1.6rem;
+}
 .avatar {
   width: 200px;
   height: 200px;
   border: 2px solid plum;
   border-radius: 100px;
+  
 }
+
+.gradient {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient(45deg, #1f4660, #dfffea);
+  color: white;
+  text-align: left;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
