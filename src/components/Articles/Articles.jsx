@@ -11,9 +11,13 @@ export default function Articles() {
         <h5>October 2011</h5>
       </div>
       <div className="col">
-        <h5>How to extrude levopemaric acid in vacuum</h5>
-        <h5>Perks of using cerosine as a catalizator of reactions</h5>
-        <h5>Benzole ring. Everything about it</h5>
+        <h5>Synthesis of Sulfur-Containing Quinopimaric Acid Scaffold Derivatives</h5>
+        <h5>Search for Antiviral Agents Among Quinopimaric Acid Scaffold Derivatives</h5>
+        <h5>Diels–Alder Reaction of Levopimaric Acid with 2-(2,4-Dioxo-5-Thiazolidinylidene)Acetic Acid</h5>
+        <h5>Synthesis of Halo-substituted Framework Derivatives of Quinopimaric Acid</h5>
+        <h5>O-Glycosides of the 6-hydroxy-scaffold derivative of quinopimaric acid</h5>
+        <h5>Full Assignment of Resonances in PMR and 13C NMR Spectra of 1-Hydroxyquinopimaric Acid</h5>
+        <h5>New nitrogen-containing and hydroxy derivatives of quinopimaric acid</h5>
       </div>
       <div className="col">
         <h5>Link</h5>
