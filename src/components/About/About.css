@@ -1,9 +1,17 @@
 .About {
   height: 100vh;
-  background-color: plum;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   
+}
+
+.left {
+  height: 20vh;
+  width:20vw;
+  background-image: url('../../../public/arsene.jpeg');
+  background-size: 8rem;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
