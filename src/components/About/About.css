@@ -1,6 +1,7 @@
 .About {
   text-align: left;
-  height: 100vh;
+  height: 60vh;
+  padding-left: 2rem;
   
 }
 
@@ -41,4 +42,8 @@
   font-size: 8rem;
   margin-top: -2rem;
   margin-bottom: -2rem;
+}
+
+.About p {
+  font-size: 1.2rem;
 }

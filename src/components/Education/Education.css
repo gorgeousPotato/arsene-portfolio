@@ -1,15 +1,27 @@
 .Education {
   height: 100vh;
-  background-color: lavender;
+  
+  color: white;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.table {
+.Education .table {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
   text-align: left;
   gap: 2rem;
+}
+
+.Education h1 {
+  font-size: 7rem;
+  margin-bottom:1rem;
+  margin-top: 0;
+}
+
+.Education h5 {
+  font-size: 1.2rem;;
 }
