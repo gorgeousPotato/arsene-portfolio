@@ -1,15 +1,27 @@
 .Experience {
-  height: 100vh;
-  background-color: plum;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 2rem;
 }
 
-.table {
+.Experience .table {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
   text-align: left;
   gap: 2rem;
+}
+
+.Experience h1 {
+  font-size: 7rem;
+  margin-bottom:1rem;
+  margin-top: 0;
+}
+
+
+.Experience h5 {
+  font-size: 1.2rem;;
 }
