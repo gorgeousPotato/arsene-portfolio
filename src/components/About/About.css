@@ -47,3 +47,34 @@
 .About p {
   font-size: 1.2rem;
 }
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .5rem 1rem;
+  margin: .5rem 1rem;
+  background-color: #DFDFDE;
+  border-radius: 100px;
+}
+
+.skill h5 {
+  margin: 0;
+}
+
+.skill i{
+  margin-left: .5rem;
+}
+
+
+
+
+

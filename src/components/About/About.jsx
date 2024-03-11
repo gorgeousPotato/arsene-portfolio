@@ -1,6 +1,13 @@
-import "./About.css"
+import "./About.css";
+import {skills} from "../../skills";
 
 export default function About() {
+  const skillList = skills.map(skill => (
+    <div className="skill">
+      <h5>{skill.title}</h5>
+      <i className={skill.icon}></i>
+    </div>
+  ))
   return (
     <div className="About">
       <h1>About me</h1>
@@ -14,6 +21,13 @@ export default function About() {
         My research has revolved around [brief description of your research focus], where I have had the privilege of exploring novel methodologies and contributing to advancements in [mention any specific breakthroughs or contributions]. This journey has not only honed my analytical and problem-solving skills but has also fostered a deep appreciation for the elegance of chemical processes.
         Beyond the laboratory
         </p>
+        </div>
+        
+      </div>
+      <div className="skills-container">
+        <h3>My skills include but not limited to...</h3>
+        <div className="skills"> 
+          {skillList}
         </div>
       </div>
       
